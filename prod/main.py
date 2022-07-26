@@ -1,6 +1,8 @@
 import os
 import discord
+from dotenv import load_dotenv
 
+load_dotenv()
 client = discord.Client()
 
 @client.event
@@ -11,12 +13,11 @@ async def on_ready():
 async def on_message(message):
     if message.author == client.user:
         return
-
     if message.content.startswith('$hello'):
         await message.channel.send('Hello!')
-
     if message.content.startswith('$delete-all'):
         deleted = await message.channel.purge(limit=100)
         await message.channel.send('Deleted {} message(s)'.format(len(deleted)))
 
-client.run(os.getenv('TOKEN'))
+
+client.run(os.getenv('DISCORD_TOKEN'))
