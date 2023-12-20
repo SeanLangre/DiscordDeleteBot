@@ -27,7 +27,7 @@ intents.message_content = True
 client = discord.Client(intents=intents)
 
 #run it once
-subprocess.call([r"" + os.getenv("STONK_BOT_PATH")])
+# subprocess.call([r"" + os.getenv("STONK_BOT_PATH")])
 
 @client.event
 async def on_ready():
