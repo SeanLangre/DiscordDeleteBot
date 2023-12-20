@@ -1,5 +1,9 @@
 # Discord Bot
 
+![GitHub repo size](https://img.shields.io/github/repo-size/SeanLangre/py-stock-tracker)
+![GitHub stars](https://img.shields.io/github/stars/SeanLangre/py-stock-tracker?style=social)
+![GitHub forks](https://img.shields.io/github/forks/SeanLangre/py-stock-tracker?style=social)
+
 A Python-based Discord bot template that provides basic functionality and is ready for customization for your specific Discord server needs.
 
 ## Table of Contents
