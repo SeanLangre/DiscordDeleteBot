@@ -1,4 +1,4 @@
-# Discord Stock Bot
+# Discord Bot
 
 A Python-based Discord bot template that provides basic functionality and is ready for customization for your specific Discord server needs.
 
@@ -26,7 +26,7 @@ Once the Discord Bot Template is running and connected to your server, you can i
 - `$help`: Displays a list of available commands.
 - `$hello`: Sends a greeting message.
 - `$delete-all`: Deletes the last 100 messages in the channel.
-- `$start-search`: Initiates a search and executes the another bot.
+- `$start-search`: Initiates a search and executes another bot that isn't included here.
 
 ## License
 
